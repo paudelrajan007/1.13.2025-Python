@@ -1,0 +1,6 @@
+Name=input("Name :")
+Age=int(input("Age :"))
+location=input("Location :")
+print("my name is",Name)
+print("my age is ",Age)
+print("Currently i i am in ",location)
