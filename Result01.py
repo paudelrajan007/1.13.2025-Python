@@ -1,0 +1,47 @@
+# Result of sharbesh shrestha
+Name=input("NAME :")
+FaterName=input("Fathers's Name :")
+MotherName=input("Mother's Name :")
+Programme=input("Programme Name :")
+Enrollment_No=int(input("Enrollment_No :"))
+Rollno=int(input("Rollno :"))
+Semester=int(input("Semester :"))
+Session=input("Session :")
+Fundamentals_of_Mechanical_Engineering_And_Mechatronics=int(input("Fundamentals_of_Mechanical_Engineering_And_Mechatronics Mark :"))
+Emerging_Domain_in_Electronics_Engineering=int(input("Emerging_Domain_in_Electronics_Engineering Mark :"))
+Engineering_Chemistry=int(input("Engineering_Chemistry Mark :"))
+Engineering_Mathematics=int(input("Engineering_Mathematics Mark :"))
+Environmental_Science=int(input("Environmental_Science Mark :"))
+Artificial_Intelligence_for_Engineers=int(input("Artificial_Intelligence_for_Engineers Mark :"))
+Total_Obtained_Mark=(Fundamentals_of_Mechanical_Engineering_And_Mechatronics+Emerging_Domain_in_Electronics_Engineering+Engineering_Chemistry+Environmental_Science+Artificial_Intelligence_for_Engineers+Engineering_Mathematics)
+print("Name :",Name)
+print("Fathers's Name :",FaterName)
+print("Mother's Name :",MotherName)
+print("Programme Name :",Programme)
+print("Enrollment_No :",Enrollment_No)
+print("Rollno :",Rollno)
+print("Semester :",Semester)
+print("Session :",Session)
+print("Fundamentals_of_Mechanical_Engineering_And_Mechatronics Mark :",Fundamentals_of_Mechanical_Engineering_And_Mechatronics)
+print("Emerging_Domain_in_Electronics_Engineering Mark :",Emerging_Domain_in_Electronics_Engineering)
+print("Engineering_Chemistry Mark :",Engineering_Chemistry)
+print("Engineering_Mathematics Mark :",Engineering_Mathematics)
+print("Environmental_Science Mark :",Environmental_Science)
+print("Artificial_Intelligence_for_Engineers Mark :",Artificial_Intelligence_for_Engineers)
+print("Total_Obtained_Mark",Total_Obtained_Mark)
+if Fundamentals_of_Mechanical_Engineering_And_Mechatronics > Emerging_Domain_in_Electronics_Engineering and Fundamentals_of_Mechanical_Engineering_And_Mechatronics >Engineering_Chemistry and Fundamentals_of_Mechanical_Engineering_And_Mechatronics >Engineering_Mathematics and Fundamentals_of_Mechanical_Engineering_And_Mechatronics >Environmental_Science and Fundamentals_of_Mechanical_Engineering_And_Mechatronics > Artificial_Intelligence_for_Engineers :
+    print("Highest marks obtained in Fundamentals_of_Mechanical_Engineering_And_Mechatronics",Fundamentals_of_Mechanical_Engineering_And_Mechatronics)
+elif Emerging_Domain_in_Electronics_Engineering > Fundamentals_of_Mechanical_Engineering_And_Mechatronics and Emerging_Domain_in_Electronics_Engineering >Engineering_Chemistry and Emerging_Domain_in_Electronics_Engineering >Engineering_Mathematics and Emerging_Domain_in_Electronics_Engineering >Environmental_Science and Emerging_Domain_in_Electronics_Engineering > Artificial_Intelligence_for_Engineers :
+    print("Highest marks obtained in Emerging_Domain_in_Electronics_Engineering",Emerging_Domain_in_Electronics_Engineering)
+elif Engineering_Chemistry > Fundamentals_of_Mechanical_Engineering_And_Mechatronics and Engineering_Chemistry >Emerging_Domain_in_Electronics_Engineering and Engineering_Chemistry >Engineering_Mathematics and Engineering_Chemistry >Environmental_Science and Engineering_Chemistry > Artificial_Intelligence_for_Engineers :
+    print("Highest marks obtained in Engineering_Chemistry",Engineering_Chemistry)
+elif Engineering_Mathematics > Fundamentals_of_Mechanical_Engineering_And_Mechatronics and Engineering_Mathematics >Emerging_Domain_in_Electronics_Engineering and Engineering_Mathematics >Engineering_Chemistry and Engineering_Mathematics >Environmental_Science and Engineering_Mathematics > Artificial_Intelligence_for_Engineers :
+    print("Highest marks obtained in Engineering_Mathematics",Engineering_Mathematics)
+elif Environmental_Science > Fundamentals_of_Mechanical_Engineering_And_Mechatronics and Environmental_Science >Emerging_Domain_in_Electronics_Engineering and Environmental_Science >Engineering_Chemistry and Environmental_Science >Engineering_Mathematics and Environmental_Science > Artificial_Intelligence_for_Engineers :
+    print("Highest marks obtained in Environmental_Science",Environmental_Science)
+elif Artificial_Intelligence_for_Engineers >= Fundamentals_of_Mechanical_Engineering_And_Mechatronics and Artificial_Intelligence_for_Engineers >=Emerging_Domain_in_Electronics_Engineering and Artificial_Intelligence_for_Engineers >=Engineering_Chemistry and Artificial_Intelligence_for_Engineers >=Engineering_Mathematics and Artificial_Intelligence_for_Engineers >= Environmental_Science :
+    print("Highest marks obtained in Artificial_Intelligence_for_Engineers",Artificial_Intelligence_for_Engineers)
+else :
+    print("Nothing")
+print("AVERAGE :",Total_Obtained_Mark/6)
+print("PERCENTAG:",(Total_Obtained_Mark/600)*100)

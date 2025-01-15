@@ -1,0 +1,47 @@
+# Result of sharbesh shrestha
+Name=input("NAME :")
+FaterName=input("Fathers's Name :")
+MotherName=input("Mother's Name :")
+Programme=input("Programme Name :")
+Enrollment_No=int(input("Enrollment_No :"))
+Rollno=int(input("Rollno :"))
+Semester=int(input("Semester :"))
+Session=input("Session :")
+fundamental_engg_mark=int(input("FuE mark :"))
+ed_mark=int(input("ed mark :"))
+ech_mark=int(input("ech mark :"))
+em_mark=int(input("em mark :"))
+es_mark=int(input("es mark :"))
+ai_mark=int(input("ai mark :"))
+sumofmark=(fundamental_engg_mark+ed_mark+ech_mark+es_mark+ai_mark+em_mark)
+print("Name :",Name)
+print("Fathers's Name :",FaterName)
+print("Mother's Name :",MotherName)
+print("Programme Name :",Programme)
+print("Enrollment_No :",Enrollment_No)
+print("Rollno :",Rollno)
+print("Semester :",Semester)
+print("Session :",Session)
+print("FuE mark :",fundamental_engg_mark)
+print("ed mark :",ed_mark)
+print("ech mark :",ech_mark)
+print("em mark :",em_mark)
+print("es mark :",es_mark)
+print("ai mark :",ai_mark)
+print("SUM",sumofmark)
+if fundamental_engg_mark > ed_mark and fundamental_engg_mark >ech_mark and fundamental_engg_mark >em_mark and fundamental_engg_mark >es_mark and fundamental_engg_mark > ai_mark :
+    print("Higest marks obtained in funda")
+elif ed_mark > fundamental_engg_mark and ed_mark >ech_mark and ed_mark >em_mark and ed_mark >es_mark and ed_mark > ai_mark :
+    print("Higest marks obtained in ed")
+elif ech_mark > fundamental_engg_mark and ech_mark >ed_mark and ech_mark >em_mark and ech_mark >es_mark and ech_mark > ai_mark :
+    print("Higest marks obtained in ech")
+elif em_mark > fundamental_engg_mark and em_mark >ed_mark and em_mark >ech_mark and em_mark >es_mark and em_mark > ai_mark :
+    print("Higest marks obtained in em")
+elif es_mark > fundamental_engg_mark and es_mark >ed_mark and es_mark >ech_mark and es_mark >em_mark and es_mark > ai_mark :
+    print("Higest marks obtained in es")
+elif ai_mark >= fundamental_engg_mark and ai_mark >=ed_mark and ai_mark >=ech_mark and ai_mark >=em_mark and ai_mark >= es_mark :
+    print("Higest marks obtained in ai")
+else :
+    print("nothing")
+print("AVG :",sumofmark/6)
+print("PRSENTAGE:",(sumofmark/600)*100)
