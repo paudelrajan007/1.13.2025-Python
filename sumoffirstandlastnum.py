@@ -7,3 +7,4 @@ def sum_of_first_and_last_digits():
     print(f"sum of first digit {first_digit} and last digit {last_digit} is : {sum_of_digits}")
     
 sum_of_first_and_last_digits()
+sum_of_first_and_last_digits()
