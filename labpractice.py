@@ -2,3 +2,5 @@
 # to short the number of elements
 # to print reverse order
 # search the specific elements from the list
+fruits=("appple",)
+print(type(fruits))
