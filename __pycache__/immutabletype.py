@@ -1,0 +1,13 @@
+p=5
+q=p
+r=5
+p=10
+q=p
+r=5
+print(p,q,r)
+t=(1,2,3)
+t[0]=10
+p=10
+r=7
+q=r
+print(r)
