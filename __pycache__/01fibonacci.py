@@ -6,15 +6,13 @@
 # 1+2=3
 # 2+3=5
 
-num=int(input("Enter a number :"))
+
+num1=int(input("enter a num :"))
 print("\n")
 a,b=0,1
-for i in range(0,num):
-    print("The fibonacci is :",a)
-    n=a+b 
+
+for i in range(0,num1):
+    print(a)
+    n=a+b
     a=b
-    b=n 
-    
-
-
-                   
+    b=n
